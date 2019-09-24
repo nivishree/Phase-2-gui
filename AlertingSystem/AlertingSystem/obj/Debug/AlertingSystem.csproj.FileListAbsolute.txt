@@ -1,0 +1,86 @@
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe.config
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.pdb
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csprojAssemblyReference.cache
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.g.cs
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\App.g.cs
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.cache
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.lref
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.baml
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.g.resources
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.Properties.Resources.resources
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.GenerateResource.cache
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CoreCompileInputs.cache
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.exe
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.pdb
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.dll
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.pdb
+C:\Users\320050489\source\repos\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CopyComplete
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe.config
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csprojAssemblyReference.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.g.cs
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\App.g.cs
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.lref
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.baml
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.g.resources
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.Properties.Resources.resources
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.GenerateResource.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CoreCompileInputs.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CopyComplete
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.exe
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe.config
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.pdb
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.dll
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.pdb
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csprojAssemblyReference.cache
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.baml
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.g.cs
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\App.g.cs
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.cache
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.lref
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.g.resources
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.Properties.Resources.resources
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.GenerateResource.cache
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CoreCompileInputs.cache
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CopyComplete
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.exe
+C:\Users\320069332\OneDrive - Philips\Documents\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csprojAssemblyReference.cache
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\App.g.cs
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.cache
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem_MarkupCompile.lref
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.exe
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe.config
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.exe
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\AlertingSystem.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\ViewModel.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.baml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\MainWindow.g.cs
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\Resources\Styles\Styles.baml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.g.resources
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.Properties.Resources.resources
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.GenerateResource.cache
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CoreCompileInputs.cache
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\obj\Debug\AlertingSystem.csproj.CopyComplete
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\AlertingSystem\bin\Debug\System.Net.Http.Formatting.xml

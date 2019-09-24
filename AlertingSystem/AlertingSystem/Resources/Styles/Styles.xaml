@@ -5,10 +5,28 @@
     <Style TargetType="Button" x:Key="OperandButtonStyle">
         <Style.Setters>
             <Setter Property="Height" Value="40"></Setter>
-            <Setter Property="Width" Value="50"></Setter>
+            <Setter Property="Width" Value="161"></Setter>
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
             <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.57,0.475" />
+            <Setter Property="Margin" Value="0,0,-111,0" />
+            
+        </Style.Setters>
+        
+    </Style>
+
+    <Style TargetType="CheckBox" x:Key="CheckboxStyle">
+        <Style.Setters>
+            <Setter Property="Height" Value="15"></Setter>
+            <Setter Property="Width" Value="161"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="10"></Setter>
+            <Setter Property="Foreground" Value="#FFFBF6F6"></Setter>
+            <Setter Property="Width" Value="84"></Setter>
+           
         </Style.Setters>
     </Style>
 

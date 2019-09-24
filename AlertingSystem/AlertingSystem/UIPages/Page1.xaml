@@ -1,0 +1,34 @@
+﻿<Window x:Class="AlertingSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlertingSystem"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-108,-201">
+        <ItemsControl Margin="282,-68,-282,68">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Height="Auto" Margin="-56,278,633,212"   />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Content="{Binding}" Margin="0,0,5,5" Height="60" Width="100" Background="#FF07198B" Foreground="#FFF9ECEC"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            <system:String>Bed 1</system:String>
+            <system:String>Bed 2</system:String>
+            <system:String>Bed 3</system:String>
+            <system:String>Bed 4</system:String>
+            <system:String>Bed 5</system:String>
+            <system:String>Bed 6</system:String>
+        </ItemsControl>
+        <Label x:Name="label" Content="ICU 1 Online Patient Monitoring Portal" HorizontalAlignment="Left" Margin="184,97,0,0" VerticalAlignment="Top" Width="388" Height="39" FontSize="22" Background="#FF061D85" Foreground="#FFFBF6F6"/>
+
+
+
+    </Grid>
+</Window>

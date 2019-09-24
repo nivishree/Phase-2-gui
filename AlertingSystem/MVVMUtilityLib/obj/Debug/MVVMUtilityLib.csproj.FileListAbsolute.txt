@@ -1,0 +1,23 @@
+C:\Users\320050489\source\repos\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\source\repos\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\source\repos\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CoreCompileInputs.cache
+C:\Users\320050489\source\repos\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\source\repos\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csprojAssemblyReference.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CoreCompileInputs.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CoreCompileInputs.cache
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CopyComplete
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll.CodeAnalysisLog.xml
+C:\Users\320069332\source\repos\RBAlertSystem\AlertingSystem\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll.lastcodeanalysissucceeded

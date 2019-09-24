@@ -20,6 +20,10 @@ namespace MVVMUtilityLib
             this._canExecuteMethodAddress = canExecuteMethodAddress;
         }
 
+        public DelegateCommand(Action<object> launchApp)
+        {
+        }
+
         bool ICommand.CanExecute(object parameter)
         {
             return this._canExecuteMethodAddress.Invoke(parameter);
