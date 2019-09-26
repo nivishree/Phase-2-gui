@@ -1,0 +1,13 @@
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\bin\Debug\VitalsType.dll
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\bin\Debug\VitalsType.pdb
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\obj\Debug\VitalsType.csproj.CoreCompileInputs.cache
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\obj\Debug\VitalsType.dll
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\obj\Debug\VitalsType.pdb
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\bin\Debug\VitalsType.dll.CodeAnalysisLog.xml
+C:\Users\320053944\Documents\BedConfiguration\VitalsType\bin\Debug\VitalsType.dll.lastcodeanalysissucceeded
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\bin\Debug\VitalsType.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\bin\Debug\VitalsType.pdb
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\obj\Debug\VitalsType.csprojAssemblyReference.cache
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\obj\Debug\VitalsType.csproj.CoreCompileInputs.cache
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\obj\Debug\VitalsType.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\VitalsType\obj\Debug\VitalsType.pdb

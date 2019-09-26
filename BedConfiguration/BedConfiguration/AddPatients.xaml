@@ -1,0 +1,19 @@
+﻿<Page x:Class="BedConfiguration.AddPatients"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BedConfiguration"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="800"
+      Title="AddPatients">
+
+    <Grid>
+        <Label x:Name="label" Content="Patient Name" HorizontalAlignment="Left" Margin="42,468,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.485,2.898" Background="#FF050581" Foreground="#FFF3F0F0"/>
+        <Label x:Name="label1" Content="Patient ID" HorizontalAlignment="Left" Margin="42,374,0,0" VerticalAlignment="Top" FontSize="22" Background="#FF030391" Foreground="#FFFDF7F7"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="39" Margin="370,374,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="265"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="37" Margin="370,468,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="265"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="686,557,0,0" VerticalAlignment="Top" Width="104" Background="#FF022A80" Foreground="#FFFBFAFA" FontSize="22"/>
+
+    </Grid>
+</Page>
