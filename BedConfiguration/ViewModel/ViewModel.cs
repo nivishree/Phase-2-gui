@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Windows;
 using System.Collections.Generic;
-using System.Windows.Input;
-using System.ComponentModel;
-using MVVMUtilityLib;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Net.Http;
 using System.Threading;
+using System.Windows;
+using System.Windows.Input;
+using MVVMUtilityLib;
 
 namespace ViewModel
 {
@@ -14,13 +14,7 @@ namespace ViewModel
     {
         public int ReturnValue(string response)
         {
-            int value = 1;
-            if (response == "Healthy")
-            {
-                value = 1;
-            }
-            else
-                value = 0;
+            int value = response == "Healthy" ? 1 : 0;
             return value;
         }
         public int GenerateVitals(string patientId)
@@ -44,53 +38,53 @@ namespace ViewModel
             return value;
         }
 
-        private ObservableCollection<ProcessShortcut> shortcuts=new ObservableCollection<ProcessShortcut>();
+        private ObservableCollection<ProcessShortcut> _shortcuts=new ObservableCollection<ProcessShortcut>();
         public ObservableCollection<ProcessShortcut> Shortcuts
         {
-            get { return this.shortcuts; }
+            get => _shortcuts;
             set
                 {
-                    this.shortcuts = value;
-                    this.OnPropertyChanged("Shortcuts");
+                    _shortcuts = value;
+                    OnPropertyChanged("Shortcuts");
                 }
         }
 
-        private BackgroundWorker backgroundWorker = null;
+        private readonly BackgroundWorker _backgroundWorker;
 
         public ViewModels()
         {
             Shortcuts = new ObservableCollection<ProcessShortcut>();
-            backgroundWorker = new BackgroundWorker();
-            backgroundWorker.DoWork += BackgroundWorker_DoWork;
-            backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;
-            StartMonitoring = new DelegateCommand((object obj) =>
+            _backgroundWorker = new BackgroundWorker();
+            _backgroundWorker.DoWork += BackgroundWorker_DoWork;
+            _backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;
+            StartMonitoring = new DelegateCommand(obj =>
             {
-                backgroundWorker.RunWorkerAsync();
-            }, (object obj) => { return true; });
+                _backgroundWorker.RunWorkerAsync();
+            }, obj => true);
         }
 
-        private bool bWait = false;
+        private bool _bWait;
 
         private void BackgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            this.Monitor();
-            backgroundWorker.RunWorkerAsync();
+            Monitor();
+            _backgroundWorker.RunWorkerAsync();
         }
 
-        private List<BedConfigTbl> bedList;
-        private List<BedAllotmentTbl> patientList;
+        private List<BedConfigTbl> _bedList;
+        private List<BedAllotmentTbl> _patientList;
         private void BackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            bedList = GetDataFromBedConfiguration();
-            patientList = GetDataFromBedAllotment();
+            _bedList = GetDataFromBedConfiguration();
+            _patientList = GetDataFromBedAllotment();
 
-            if (bWait)
+            if (_bWait)
             {
                 Thread.Sleep(5000);
             }
             else
             {
-                bWait = true;
+                _bWait = true;
             }
         }
 
@@ -126,31 +120,25 @@ namespace ViewModel
         public void Monitor()
         {
             Shortcuts.Clear();
-            //List<BedConfigTbl> bedList = GetDataFromBedConfiguration();
-            //List<BedAllotmentTbl> patientList = GetDataFromBedAllotment();
+         
 
-            foreach (var bed in bedList)
+            foreach (var bed in _bedList)
             {
                 string patientId = null;
-                bool status = true;
-                if (bed.BedAvailability == 0)
-                {
-                    status = false;
-                }
+                bool status = bed.BedAvailability != 0;
 
-                foreach (var patient in patientList)
+                foreach (var patient in _patientList)
                 {
                     if (bed.BedNo == patient.BedNo)
                         patientId = patient.PatientId;
                 }
 
-                ClickCommand = new DelegateCommand((object obj) => { Click(bed.BedNo); },
-                    (object obj) => { return true; });
+                ClickCommand = new DelegateCommand(obj => { Click(bed.BedNo); },
+                    obj => true);
 
-                //Application.Current.Dispatcher.Invoke((System.Action) delegate
-                //{
-                    this.Shortcuts.Add(
-                        new ProcessShortcut()
+             
+                    Shortcuts.Add(
+                        new ProcessShortcut
                         {
                             DisplayName = "Bed " + bed.BedNo,
                             ColorChange = Bed(GenerateVitals(patientId)),
@@ -159,7 +147,7 @@ namespace ViewModel
                             BedClickCommand = ClickCommand,
                             Status = status
                         });
-                //});
+                
             }
 
         }
@@ -168,14 +156,14 @@ namespace ViewModel
     public ICommand StartMonitoring { get; set; }
     public ICommand ClickCommand { get; set; }
     public string Bed(int value)
-        {
-            if (value == 0)
+    {
+        if (value == 0)
             {
                 return "Red";
             }
-            else
-                return "#03fc07";
-        }
+
+        return "#03fc07";
+    }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -190,19 +178,17 @@ namespace ViewModel
                 {
                         MessageBoxButton msgBoxButton = MessageBoxButton.YesNo;
                         MessageBoxResult msgBoxResult = MessageBox.Show("Do you want to turn off the alert",
-                            "Patient is in emergnecy in bed " + bed, msgBoxButton);
+                            "Patient is in emergency in bed " + bed, msgBoxButton);
                         if (msgBoxResult == MessageBoxResult.Yes)
                         {
                             processShortcut = item;
                             isYes = true;
                             break;
-                        //item.ColorChange = "#03fc07";
-                        //OnPropertyChanged(item.ColorChange);
                         }
                 }
             }
 
-            if (isYes && processShortcut!= null)
+            if (isYes)
             {
                 processShortcut.ColorChange = "#03fc07";
                 OnPropertyChanged(processShortcut.ColorChange);
@@ -210,12 +196,10 @@ namespace ViewModel
         }
 
         #region Behaviours
-            void OnPropertyChanged(string propertyName)
+
+        private void OnPropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
     }

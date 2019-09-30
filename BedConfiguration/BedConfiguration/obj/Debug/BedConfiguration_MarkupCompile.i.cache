@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\BedConfiguration\App.xaml
-61995677064
+7-215267016
 
-10-1854268317
+111957964055
 1481912375305
-MainWindow.xaml;Resources\Styles\Styles.xaml;Views\AllotBedView.xaml;Views\DischargePatientView.xaml;Views\HomePageView.xaml;Views\StartMonitorView.xaml;
+DesignWindow.xaml;MainWindow.xaml;Resources\Styles\Styles.xaml;Views\AllotBedView.xaml;Views\DischargePatientView.xaml;Views\HomePageView.xaml;Views\StartMonitorView.xaml;
 
 False
 

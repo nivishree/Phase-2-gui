@@ -51,9 +51,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="AllotBedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\EnableVitalsClass\EnableVitalsClass.csproj">
       <Project>{9c1e576d-5ca9-42f7-a2ae-94f13049fe66}</Project>
       <Name>EnableVitalsClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVVMUtilityLib\MVVMUtilityLib.csproj">
+      <Project>{D77E51AF-8EFE-45C7-B612-62B50116795B}</Project>
+      <Name>MVVMUtilityLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\VitalSigns\VitalSigns.csproj">
       <Project>{bd2738ac-5507-411f-a687-c7449d50479f}</Project>

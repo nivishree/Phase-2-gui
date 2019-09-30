@@ -11,28 +11,47 @@
 
     <Page.DataContext>
         <vm:AllotBedViewModel>
-
         </vm:AllotBedViewModel>
     </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Resources/Styles/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
 
+    <Border BorderThickness="1" CornerRadius="10"  HorizontalAlignment="Right" VerticalAlignment="Bottom"  BorderBrush="DarkBlue" Height="251" Width="512" Margin="0,0,143,189" >
+        <Grid Margin="9,9,9,31">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0"></ColumnDefinition>
+                <ColumnDefinition Width="14"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="157"/>
+                <ColumnDefinition Width="Auto" MinWidth="257"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
 
-    <Grid Height="654" Margin="0,0,0,-204.4" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
 
-        <Label x:Name="patient_id_label" Content="Patient ID" HorizontalAlignment="Left" Margin="60,310,0,0" VerticalAlignment="Top" FontSize="22" Background="#FF030391" Foreground="#FFFDF7F7"/>
-        <TextBox x:Name="patient_id_text" Text="{Binding Path=PatientId, Mode=TwoWay}" HorizontalAlignment="Left" Height="39" Margin="323,313,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265" RenderTransformOrigin="0.496,0.872" FontSize="22"/>
-        <Button x:Name="submit_button" Content="Submit" HorizontalAlignment="Left" Margin="618,592,0,0" Command="{Binding Path=SubmitCommand}"
-                VerticalAlignment="Top" Width="104" Background="#FF022A80" Foreground="#FFFBFAFA" FontSize="22" RenderTransformOrigin="-0.372,-1.116" Height="53"/>
-        <Button x:Name="submit_button_Copy" Content="Go Back" HorizontalAlignment="Left" Margin="69,591,0,0" Click="Submit_button_Copy_OnClick"
-                VerticalAlignment="Top" Width="104" Background="#FF022A80" Foreground="#FFFBFAFA" FontSize="22" RenderTransformOrigin="-0.372,-1.116" Height="53"/>
-      
-        <CheckBox x:Name="SpO2"  Content="SpO2" HorizontalAlignment="Left"  Margin="330,385,0,0" VerticalAlignment="Top" Width="144" Height="24"  IsChecked="{Binding Path=Checkbox1,Mode=TwoWay}"
-                  FontSize="14"/>
-        <CheckBox x:Name="PulseRate"  Content="PulseRate" HorizontalAlignment="Left"  Margin="329,422,0,0" VerticalAlignment="Top" Width="144" Height="24"   IsChecked="{Binding Path=Checkbox2,Mode=TwoWay}"
-                  FontSize="14"/>
-        <CheckBox x:Name="Temperature"   Content="Temperature" HorizontalAlignment="Left"  Margin="330,462,0,0" VerticalAlignment="Top" Width="144" Height="24"   IsChecked="{Binding Path=Checkbox3,Mode=TwoWay}"
-                  FontSize="14"/>
+            <Label x:Name="patient_id_label" Content="Patient ID" Grid.Row="0" Grid.Column="0" Style="{StaticResource LabelStyle}" Grid.ColumnSpan="4" Height="28" Margin="0,7" Width="74"  />
+            <TextBox x:Name="patient_id_text" Text="{Binding Path=PatientId, Mode=TwoWay}"  Style="{StaticResource TextBoxStyle}" Grid.Row="0" Grid.Column="4" Margin="0,11" Height="20"/>
+            <Button x:Name="submit_button" Content="Submit" Grid.Row="4" Grid.Column="4" Style="{StaticResource btnBlue}" Command="{Binding Path=SubmitCommand}" Margin="52,6,53,5" Height="Auto" Width="Auto"/>
+            <Button x:Name="submit_button_Copy" Content="Go Back" Grid.Row="4" Grid.Column="3" Style="{StaticResource btnBlue}" Command="{Binding Path=SubmitCommand}" Click="Submit_button_Copy_OnClick" Margin="32,6,12,5" Height="Auto" Width="Auto" />
 
-        <!--<CheckBox x:Name="SpO2"  Content="SpO2" Command="{Binding Path=Listcommand1}" HorizontalAlignment="Left"  Margin="330,385,0,0" VerticalAlignment="Top" Width="144" Height="24"  IsChecked="{Binding Path=Checkbox1,Mode=TwoWay}"
+            <Label   x:Name="patient_id_label_Copy" Content="Choose Vitals to Monitor" Style="{StaticResource LabelStyle}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Height="42" Width="203"/>
+
+            <CheckBox x:Name="SpO2"  Content="SpO2"  Grid.Row="1" Grid.Column="4" Style="{StaticResource CheckboxStyle}"  IsChecked="{Binding Path=Checkbox1,Mode=TwoWay}"/>
+            <CheckBox x:Name="PulseRate"  Content="PulseRate"   Grid.Row="2" Grid.Column="4" Style="{StaticResource CheckboxStyle}"   IsChecked="{Binding Path=Checkbox2,Mode=TwoWay}"
+                 />
+            <CheckBox x:Name="Temperature"   Content="Temperature"   Grid.Row="3" Grid.Column="4" Style="{StaticResource CheckboxStyle}"     IsChecked="{Binding Path=Checkbox3,Mode=TwoWay}" />
+
+            <!--<CheckBox x:Name="SpO2"  Content="SpO2" Command="{Binding Path=Listcommand1}" HorizontalAlignment="Left"  Margin="330,385,0,0" VerticalAlignment="Top" Width="144" Height="24"  IsChecked="{Binding Path=Checkbox1,Mode=TwoWay}"
               FontSize="14">
            
         </CheckBox>
@@ -41,9 +60,8 @@
                   FontSize="14"/>
         <CheckBox x:Name="Temperature"  Command="{Binding Path=Listcommand3}"  Content="Temperature" HorizontalAlignment="Left"  Margin="330,462,0,0" VerticalAlignment="Top" Width="144" Height="24"   IsChecked="{Binding Path=Checkbox3,Mode=TwoWay}"
                  FontSize="14"/>-->
-        <Label   x:Name="patient_id_label_Copy" Content="Choose Vitals to&#xD;&#xA;Monitor" HorizontalAlignment="Left" Margin="60,383,0,0" VerticalAlignment="Top" FontSize="22" Background="#FF030391" Foreground="#FFFDF7F7" Width="189" Height="71"/>
+        </Grid>
 
-
-    </Grid>
+    </Border>
 </Page>
 

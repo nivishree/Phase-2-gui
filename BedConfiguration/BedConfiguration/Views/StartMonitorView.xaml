@@ -7,44 +7,49 @@
      
       xmlns:vm="clr-namespace:ViewModel;assembly=ViewModel"
       mc:Ignorable="d"
-      Title="StartMonitorView" Height="858" Width="1011.2">
+      Title="StartMonitorView" Height="1675.5" Width="1011.2">
     <Page.DataContext>
         <vm:ViewModels></vm:ViewModels>
     </Page.DataContext>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
 
-    <Grid Margin="10">
-        <Grid.Resources>
-            <ResourceDictionary>
-                <ResourceDictionary.MergedDictionaries>
-                    <ResourceDictionary Source="../Resources/Styles/Styles.xaml"></ResourceDictionary>
-                </ResourceDictionary.MergedDictionaries>
-            </ResourceDictionary>
+        <Grid Margin="10">
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="../Resources/Styles/Styles.xaml"></ResourceDictionary>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
 
-        </Grid.Resources>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
 
-        <ItemsControl ItemsSource="{Binding Shortcuts}" Margin="81,305,529,-431" Grid.ColumnSpan="2">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel Height="74" Width="700" 
-                               Background="#FF062795" Orientation="Vertical"   
-                               ItemHeight="50" ItemWidth="50" Margin="0,0,46,0"  >
-                        <TextBlock Text="{Binding PatientID}" Background="{Binding ColorChange}" Margin="0,10,-43,0" Height="30" Width="93" ></TextBlock>
-                        <Button Content="{Binding DisplayName, StringFormat='{}Start {0}'}" Command="{Binding Path= BedClickCommand}"
+            <ItemsControl ItemsSource="{Binding Shortcuts}" Margin="0,90,50,-231" Grid.ColumnSpan="2">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel Height="54" Width="600" 
+                               Background="#FFD3D8EA" Orientation="Vertical"   
+                               ItemHeight="50" ItemWidth="50" Margin="0,0,10,0"  >
+                            <Button Content="{Binding DisplayName, StringFormat='{}Start {0}'}" Command="{Binding Path= BedClickCommand}"
                       IsEnabled="{Binding Status }"
-                                Background="{Binding ColorChange}"  Margin="0,10,-43,0" 
-                                Style="{StaticResource ResourceKey=OperandButtonStyle}" Height="30" Width="93" >
-                        </Button>
-                    </WrapPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-        <Label x:Name="label" Content="ICU-1 ONLINE PATIENT MONITORING PORTAL" HorizontalAlignment="Left" Margin="77,230,0,0" VerticalAlignment="Top" Width="434" FontSize="18" Background="#FF062795" Foreground="#FFFBF5F5" Height="38" Grid.ColumnSpan="2"/>
+                                Background="{Binding ColorChange}"  Margin="0,10,-60,0" 
+                                Style="{StaticResource ResourceKey=OperandButtonStyle}" Height="30" Width="100" >
+                                <Button.ToolTip>
+                                    <ToolTip Content="{Binding PatientID}"></ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+                        </WrapPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <Label x:Name="label" Content="ICU-1 ONLINE PATIENT MONITORING PORTAL"  Style="{StaticResource LabelStyle}" Grid.ColumnSpan="2" RenderTransformOrigin="0.602,-9.089" Height="32" Margin="115,32,0,1592" Width="382"/>
 
-        <Button x:Name="button" Content="Start Monitoring" HorizontalAlignment="Left" Margin="762,714,0,0" VerticalAlignment="Top" Width="152" Height="39" Background="#FF062795" Foreground="#FFFBF5F5" FontSize="18" Command="{Binding Path=StartMonitoring}" RenderTransformOrigin="-0.236,-0.4" Grid.ColumnSpan="2"/>
+            <Button x:Name="button" Content="Start Monitoring"  Style="{StaticResource btnBlue}" Command="{Binding Path=StartMonitoring}" Margin="550,34,239,1592" RenderTransformOrigin="-0.09,0.35" Width="Auto" Grid.Column="1"/>
 
-    </Grid>
+
+        </Grid>
+    </ScrollViewer>
 </Page>

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\View
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMUtilityLib", "MVVMUtilityLib\MVVMUtilityLib.csproj", "{D77E51AF-8EFE-45C7-B612-62B50116795B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModelTest", "ViewModelTest\ViewModelTest.csproj", "{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{D77E51AF-8EFE-45C7-B612-62B50116795B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77E51AF-8EFE-45C7-B612-62B50116795B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77E51AF-8EFE-45C7-B612-62B50116795B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9C141715-548C-4CEC-8FBA-2FE7878DF25C} = {2F9BE10E-BEB0-4EEE-AE31-FE4CDC8B3B07}
 		{ED6F1A9B-CB16-4761-B7FD-40EB9B5EC729} = {2F9BE10E-BEB0-4EEE-AE31-FE4CDC8B3B07}
+		{01A5D74D-2E97-4F31-8D16-5F3F54A5C4C7} = {2F9BE10E-BEB0-4EEE-AE31-FE4CDC8B3B07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8E31ECD-2C64-4504-B5D4-75EAEA7CBEE1}

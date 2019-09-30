@@ -11,18 +11,37 @@
 
     <Page.DataContext>
         <vm:DischargePatientViewModel>
-            
         </vm:DischargePatientViewModel>
-        
     </Page.DataContext>
 
-    <Grid>
-        <Label x:Name="patient_id_label" Content="Patient ID" HorizontalAlignment="Left" Margin="49,273,0,0" VerticalAlignment="Top" FontSize="22" Background="#FF030391" Foreground="#FFFDF7F7"/>
-        <TextBox x:Name="patient_id_text" Text="{Binding Path=PatientId, Mode=TwoWay}" HorizontalAlignment="Left" Height="39" Margin="315,275,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="265"/>
-        <Button x:Name="submit_button" Content="Submit" HorizontalAlignment="Left" Margin="576,356,0,0" Command="{Binding Path=SubmitCommand}"
-                VerticalAlignment="Top" Width="104" Background="#FF022A80" Foreground="#FFFBFAFA" FontSize="22" RenderTransformOrigin="-0.372,-1.116" Height="53"/>
-        <Button x:Name="submit_button_Copy" Content="Go Back" HorizontalAlignment="Left" Margin="49,359,0,0" Click="Submit_button_Copy_Click"
-            VerticalAlignment="Top" Width="104" Background="#FF022A80" Foreground="#FFFBFAFA" FontSize="22" RenderTransformOrigin="-0.372,-1.116" Height="53"/>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Resources/Styles/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
 
-    </Grid>
+    <Border BorderThickness="1" CornerRadius="10"  HorizontalAlignment="Right" VerticalAlignment="Bottom"  BorderBrush="DarkBlue" Height="176" Width="370" Margin="0,0,285,264" >
+
+        <Grid Margin="20">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="patient_id_label" Content="Patient ID" Grid.Row="0" Grid.Column="0" Style="{StaticResource LabelStyle}" RenderTransformOrigin="-4.028,-12.114" HorizontalAlignment="Right" Margin="0,0,36,0"  />
+            <TextBox x:Name="patient_id_text" Text="{Binding Path=PatientId, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBoxStyle}" Grid.ColumnSpan="4"/>
+            <Button x:Name="submit_button" Content="Submit"  Command="{Binding Path=SubmitCommand}" Style="{StaticResource btnBlue}" Grid.Row="1" Grid.Column="1"/>
+            <Button x:Name="submit_button_Copy" Content="Go Back"  Click="Submit_button_Copy_Click" Grid.Row="1" Grid.Column="0"
+          Style="{StaticResource btnBlue}"/>
+
+        </Grid>
+    </Border>
 </Page>

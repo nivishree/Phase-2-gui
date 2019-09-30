@@ -64,10 +64,10 @@ namespace DischargePatientModuleLib
                 (PatientDischargeURL+"DischargePatient",PatientId).Result;
 
             var result=responseMessage.IsSuccessStatusCode;
-            var response = responseMessage.Content.ReadAsStringAsync().Result;
             if (responseMessage.IsSuccessStatusCode)
             {
-              Reset();
+                MessageBox.Show("Patient discharged");
+                  Reset();
             }
             return result;
            

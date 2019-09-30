@@ -7,18 +7,7 @@
       mc:Ignorable="d" d:DesignWidth="1000"
       Title="HomePage" Height="800">
 
-    <Grid Margin="10,10,-10,401">
-        <GridSplitter  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" ShowsPreview="True" Height="0" Margin="0,0,0,100" />
-        <Label  x:Name="label" Content="Philips Hospital, Avanashi Road, Bangalore-641014, India. Phone : +91-422-4323800  Email : getwell@philipshospitals.com" HorizontalAlignment="Center" FontSize="20" Width="1400" RenderTransformOrigin="0.509,0.873" Margin="0,694,0,-297"/>
-        <Image x:Name="Image3_png" Source="/Resources/Images/Image3.png" Opacity="0.7" ClipToBounds="True" AllowDrop="True" Margin="-7,181,7,-98" RenderTransformOrigin="0.5,0.5" Height="400" VerticalAlignment="Top">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.266"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
+    <Grid Margin="10,10,-10,202">
+        <Image x:Name="ICU" Source="/Resources/Images/watermark.png" Opacity="0.7" ClipToBounds="True" AllowDrop="True" Margin="-10,10,10,0" RenderTransformOrigin="0.5,0.5" Height="439" VerticalAlignment="Top"/>
     </Grid>
 </Page>

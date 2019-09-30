@@ -32,7 +32,8 @@ namespace BedConfiguration.Views
 
         private void Submit_button_Copy_OnClick(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate("HomePageView.xaml");
+            this.NavigationService.Navigate("DesignView.xaml");
         }
+
     }
 }

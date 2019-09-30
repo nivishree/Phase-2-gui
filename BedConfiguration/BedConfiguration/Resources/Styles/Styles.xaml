@@ -16,16 +16,87 @@
 
     </Style>
 
+    <Style x:Key="LabelStyle" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        <Setter Property="FontSize" Value="15"></Setter>
+        <Setter Property="FontFamily" Value="Cambria"></Setter>
+    </Style>
+
+    <Style x:Key="TextBoxStyle" TargetType="TextBox">
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        <Setter Property="FontSize" Value="15"></Setter>
+        <Setter Property="FontFamily" Value="Cambria"></Setter>
+        <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        <Setter Property="Width" Value="200"></Setter>
+    </Style>
+    <!--For menu color change-->
+    <Style
+        x:Key="MenuItemStyle"
+        TargetType="{x:Type MenuItem}">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="WhiteSmoke" />
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="Azure" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--For cross menu button-->
+    <Style x:Key="{x:Type Menu}" TargetType="{x:Type Menu}">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Menu}">
+                    <!--Here is where you change the border thickness to zero on the menu-->
+                    <Border BorderThickness="0">
+                        <StackPanel ClipToBounds="True" Orientation="Horizontal"
+                                    IsItemsHost="True"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
     <Style TargetType="CheckBox" x:Key="CheckboxStyle">
         <Style.Setters>
-            <Setter Property="Height" Value="15"></Setter>
-            <Setter Property="Width" Value="161"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
-            <Setter Property="FontSize" Value="10"></Setter>
-            <Setter Property="Foreground" Value="#FFFBF6F6"></Setter>
-            <Setter Property="Width" Value="84"></Setter>
-
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="Foreground" Value="#000"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
         </Style.Setters>
     </Style>
+    <Style TargetType="Button" x:Key="btnBlue">
+<Setter Property="Background" Value="DarkBlue"/>
+<Setter Property="Foreground" Value="#fff"/>
+<Setter Property="FontSize" Value="15"/>
+<Setter Property="Width" Value="100"></Setter>
+<Setter Property="FontFamily" Value="Cambria"></Setter>
+<Setter Property="Margin" Value="5"/>
+<Setter Property="Height" Value="30"></Setter>
+<Setter Property="Template">
+<Setter.Value>
+<ControlTemplate TargetType="Button">
+<Border Background="{TemplateBinding Background}"
+CornerRadius="5"
+BorderThickness="1"
+Padding="3"
+BorderBrush="#000">
+<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+</ContentPresenter>
+</Border>
+</ControlTemplate>
+</Setter.Value>
+</Setter>
+<Style.Triggers>
+<Trigger Property="IsMouseOver" Value="True">
+<Setter Property="Background" Value="Blue"/>
+<Setter Property="Foreground" Value="#fff"/>
+</Trigger>
+</Style.Triggers>
+</Style>
 </ResourceDictionary>

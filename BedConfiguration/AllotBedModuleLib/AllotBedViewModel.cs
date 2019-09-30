@@ -172,7 +172,10 @@ namespace AllotBedModuleLib
                     (PatientMonitoriURI + "/EnablePatientVitals",
                         set).Result;
                 if (httpResponse.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("Patient alloted");
                     SendMessage("");
+                }
                 x = x && (httpResponse.IsSuccessStatusCode);
             }
 

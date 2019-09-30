@@ -139,6 +139,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DesignWindow.xaml.cs">
+      <DependentUpon>DesignWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AllotBedView.xaml.cs">
       <DependentUpon>AllotBedView.xaml</DependentUpon>
     </Compile>
@@ -151,6 +154,10 @@
     <Compile Include="Views\StartMonitorView.xaml.cs">
       <DependentUpon>StartMonitorView.xaml</DependentUpon>
     </Compile>
+    <Page Include="DesignWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -254,7 +261,9 @@
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.4\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.4\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Images\icon.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\watermark.png" />
   </ItemGroup>
