@@ -1,0 +1,57 @@
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\source\repos\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\Desktop\c#\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320050489\Desktop\c#\phase2\phase 2\AlertingSystem\ViewModel\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\320050489\Documents\AlertingSystem\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\320069332\source\repos\CS-Phase-2\BedConfiguration\ViewModel\obj\Debug\ViewModel.pdb

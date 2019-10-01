@@ -1,0 +1,61 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BedConfiguration"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="BedConfiguration.DesignWindow"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Title="DesignWindow" Height="816.197" Width="1000">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Height="815" VerticalAlignment="Top">
+        <DockPanel HorizontalAlignment="Left" Height="33" LastChildFill="False" Margin="0,99,0,0" VerticalAlignment="Top" Width="1000" Background="#FF3F4C7C">
+            <Menu Height="33" VerticalAlignment="Top" Width="756" Foreground="White"  Background="Transparent" Margin="40,0,0,0" Cursor="Hand" >
+                <MenuItem Header="Home" Width="99"  Click="GotoHome" Style="{StaticResource MenuItemStyle}"  />
+                <MenuItem Header="Allot Bed" Width="111"  Click="GotoAllotBed"  Style="{StaticResource MenuItemStyle}"  />
+                <MenuItem Header="Discharge Patient" Width="140" Click="GotoDischargePatient" Style="{StaticResource MenuItemStyle}" />
+                <MenuItem Header="Start Patient Monitoring" Click="GotoPatientMonitoring" Width="192" Style="{StaticResource MenuItemStyle}"/>
+            </Menu>
+        </DockPanel>
+
+        <DockPanel HorizontalAlignment="Left" Height="71" LastChildFill="False" VerticalAlignment="Top" Width="1000" RenderTransformOrigin="0.5,0.5" AutomationProperties.Name="Philips Healthcare" Margin="0,28,0,0" Opacity="0.5">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF7F8EB" Offset="0.995"/>
+                    <GradientStop Color="#FF7F6DAE" Offset="1"/>
+                    <GradientStop Color="#FF4B4975" Offset="0.148"/>
+                    <GradientStop Color="#FF05070F" Offset="0.073"/>
+                    <GradientStop Color="#FF4C4A75" Offset="1"/>
+                    <GradientStop Color="#FFF7F8EB" Offset="0.282"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+            <DockPanel.Effect>
+                <DropShadowEffect Direction="{DynamicResource {x:Static SystemParameters.MenuButtonWidthKey}}" ShadowDepth="1" Color="White"  />
+            </DockPanel.Effect>
+            <Image Source="Resources/Images/icon.png" Height="51" VerticalAlignment="Top" Width="73" Margin="20,8,0,0" />
+            <TextBox Height="71" TextWrapping="Wrap" Foreground="DarkBlue" Background="Transparent" FontSize="40" Text="Philips Healthcare"  Width="450" Margin="0" FontWeight="Black" FontFamily="Cambria" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" SpellCheck.IsEnabled="True"/>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Center" Height="28" LastChildFill="False" VerticalAlignment="Top" Width="1000" Background="#FF07164D" />
+        <TextBox Height="28" TextWrapping="Wrap" Foreground="White" Background="Transparent" Text=" 24 Hours Accident,Emergency and Ambulence Services+91-987646378 "  Width="465" Margin="43,0,492,787" FontFamily="Cambria" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" />
+        <DockPanel HorizontalAlignment="Left" Height="803" LastChildFill="False" Margin="0,132,0,0" VerticalAlignment="Top" Width="90">
+            <DockPanel.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </DockPanel.Background>
+        </DockPanel>
+
+        <DockPanel HorizontalAlignment="Left" Height="683" LastChildFill="False" Margin="888,132,0,0" VerticalAlignment="Top" Width="112">
+            <DockPanel.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </DockPanel.Background>
+        </DockPanel>
+        <Frame x:Name="Main" Margin="91,132,112,174" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+    </Grid>
+</Window>

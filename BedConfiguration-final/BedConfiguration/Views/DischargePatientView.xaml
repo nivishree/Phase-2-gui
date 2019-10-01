@@ -1,0 +1,47 @@
+﻿<Page x:Class="BedConfiguration.Views.DischargePatientView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BedConfiguration.Views"
+      xmlns:vm="clr-namespace:DischargePatientModuleLib;assembly=DischargePatientModuleLib"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Discharge Patient">
+
+    <Page.DataContext>
+        <vm:DischargePatientViewModel>
+        </vm:DischargePatientViewModel>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Resources/Styles/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Border BorderThickness="1" CornerRadius="10"  HorizontalAlignment="Right" VerticalAlignment="Bottom"  BorderBrush="DarkBlue" Height="176" Width="370" Margin="0,0,285,264" >
+
+        <Grid Margin="20">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="patient_id_label" Content="Patient ID" Grid.Row="0" Grid.Column="0" Style="{StaticResource LabelStyle}" RenderTransformOrigin="-4.028,-12.114" HorizontalAlignment="Right" Margin="0,0,36,0"  />
+            <TextBox x:Name="patient_id_text" Text="{Binding Path=PatientId, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBoxStyle}" Grid.ColumnSpan="4"/>
+            <Button x:Name="submit_button" Content="Submit"  Command="{Binding Path=SubmitCommand}" Style="{StaticResource btnBlue}" Grid.Row="1" Grid.Column="1"/>
+            <Button x:Name="submit_button_Copy" Content="Go Back"  Click="Submit_button_Copy_Click" Grid.Row="1" Grid.Column="0"
+          Style="{StaticResource btnBlue}"/>
+
+        </Grid>
+    </Border>
+</Page>
